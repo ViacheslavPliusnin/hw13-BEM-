@@ -1,0 +1,15 @@
+&__tblue-clean {
+    width: 144px;
+    height: 46px;
+    font-size: 15px;
+    color: #18A0FB;
+    padding: 0;
+    background-color: transparent;
+    border: 1px solid #18A0FB;
+    border-radius: 5px;
+}
+&__tblue-clean:hover {
+    color: white;
+    background-color: #18A0FB;
+    transition: 0.5s;
+}

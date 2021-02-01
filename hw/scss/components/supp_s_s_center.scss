@@ -1,0 +1,14 @@
+&__center {
+    width: 62px;
+    height: 36px;
+    font-size: 15px;
+    background-color: transparent;
+    color: #2C2C2C;
+    border: 1px solid #E0E0E0;
+}
+&__center:hover {
+    background-color: #18A0FB;
+    color: white;
+    border: 1px solid #18A0FB;
+    transition: 0.5s;
+}

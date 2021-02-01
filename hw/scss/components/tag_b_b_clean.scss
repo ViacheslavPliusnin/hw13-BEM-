@@ -1,0 +1,15 @@
+&__blue_clean {
+    margin-left: 14px;
+    font-size: 13px;
+    border: 1px solid #18A0FB;
+    border-radius: 5px;
+    background-color: #18A0FB;
+    width: 51px;
+    height: 28px;
+    color: white;
+}
+&__blue_clean:hover {
+    background-color: transparent;
+    color: #18A0FB;
+    transition: 0.5s;
+}

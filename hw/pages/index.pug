@@ -1,0 +1,71 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        link(rel="shortcut icon" href="./assets/img/favicon.ico")
+        title БЕМ
+        link(rel="stylesheet", href="./assets/css/style.css")
+    body
+        main
+            h2 Buttons Big
+            .big-set
+                .download
+                    include includes/dload_b_b_clean.pug
+                    include includes/dload_b_g_clean.pug
+                    include includes/dload_b_t_clean.pug
+                    include includes/dload_b_tb_clean.pug
+                    include includes/dload_b_b_right.pug
+                    include includes/dload_b_g_right.pug
+                    include includes/dload_b_t_right.pug
+                    include includes/dload_b_tb_right.pug
+                    include includes/dload_b_b_left.pug
+                    include includes/dload_b_g_left.pug
+                    include includes/dload_b_t_left.pug
+                    include includes/dload_b_tb_left.pug
+                .supporting
+                    .supporting__search
+                        include includes/supp_b_b_search.pug
+                        include includes/supp_b_b_download.pug
+                        include includes/supp_b_b_archive.pug
+                    .supporting__tab
+                        include includes/supp_b_t_left.pug
+                        include includes/supp_b_t_right.pug
+                    .supporting__size
+                        include includes/supp_b_s_left.pug
+                        include includes/supp_b_s_center.pug
+                        include includes/supp_b_s_right.pug
+            h2 Buttons Small
+            .small-set
+                .download
+                    include includes/dload_b_b_clean.pug
+                    include includes/dload_b_g_clean.pug
+                    include includes/dload_b_t_clean.pug
+                    include includes/dload_b_tb_clean.pug
+                    include includes/dload_s_b_right.pug
+                    include includes/dload_s_g_right.pug
+                    include includes/dload_s_t_right.pug
+                    include includes/dload_s_tb_right.pug
+                    include includes/dload_s_b_left.pug
+                    include includes/dload_s_g_left.pug
+                    include includes/dload_s_t_left.pug
+                    include includes/dload_s_tb_left.pug
+                    .tag
+                        include includes/tag_b_t_close.pug
+                        include includes/tag_b_b_close.pug
+                        include includes/tag_b_t_clean.pug
+                        include includes/tag_b_b_clean.pug
+                .supporting
+                    .supporting__tab
+                        include includes/supp_b_t_left.pug
+                        include includes/supp_b_t_right.pug
+                        include includes/supp_s_s_search.pug
+                        include includes/supp_s_b_search.pug
+                    .supporting__search
+                        include includes/supp_b_b_search.pug
+                        include includes/supp_s_b_searchbar_center.pug
+                        include includes/supp_s_b_searchbar_right.pug
+                    .supporting__size
+                        include includes/supp_b_s_left.pug
+                        include includes/supp_b_s_center.pug
+                        include includes/supp_b_s_right.pug

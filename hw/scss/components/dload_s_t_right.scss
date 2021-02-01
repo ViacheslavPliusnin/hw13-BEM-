@@ -1,0 +1,23 @@
+&__transperent-right {
+    width: 116px;
+    height: 36px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    font-size: 13px;
+    color: #2C2C2C;
+    background-color: transparent;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    .down_fill {
+        stroke: #2C2C2C;
+    }
+}
+&__transperent-right:hover {
+    background-color: #E0E0E0;
+    border: 1px solid #2C2C2C;
+    transition: 0.5s;
+}

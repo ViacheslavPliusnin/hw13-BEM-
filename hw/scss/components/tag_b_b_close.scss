@@ -1,0 +1,26 @@
+&__blue_close {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    font-size: 13px;
+    border: 1px solid #18A0FB;
+    border-radius: 5px;
+    background-color: #18A0FB;
+    width: 65px;
+    height: 28px;
+    color: white;
+    .tag-stroke {
+        fill: rgb(214, 242, 255);
+    }
+}
+&__blue_close:hover {
+    background-color: transparent;
+    color: #18A0FB;
+    transition: 0.5s;
+    .tag-stroke {
+        fill: #18A0FB;
+        transition: 0.5s;
+    }
+}

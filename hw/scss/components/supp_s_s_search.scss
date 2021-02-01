@@ -1,0 +1,19 @@
+&__small {
+    margin-left: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #FF3E1D;
+    background-color: #FF3E1D;
+}
+&__small:hover {
+    background-color: transparent;
+    transition: 0.5s;
+    .supp_fill {
+        fill: #FF3E1D;
+        transition: 0.5s;
+    }
+}

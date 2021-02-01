@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    margin-top: 0;
+    margin-bottom: 26px;
+    width: 1101px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+h2:last-of-type {
+    margin-top: 73px;
+    margin-bottom: 35px;
+}
+button {
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    padding: 0;
+}
+button:hover {
+    cursor: pointer;
+}
+.big-set {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    .download {
+        max-width: 645px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 24px;
+        @import "./components/dload_b_b_clean.scss";
+        @import "./components/dload_b_g_clean.scss";
+        @import "./components/dload_b_t_clean.scss";
+        @import "./components/dload_b_tb_clean.scss";
+        @import "./components/dload_b_b_right.scss";
+        @import "./components/dload_b_g_right.scss";
+        @import "./components/dload_b_t_right.scss";
+        @import "./components/dload_b_tb_right.scss";
+        @import "./components/dload_b_b_left.scss";
+        @import "./components/dload_b_g_left.scss";
+        @import "./components/dload_b_t_left.scss";
+        @import "./components/dload_b_tb_left.scss";
+    }
+    .supporting {
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+        &__search {
+            display: flex;
+            flex-direction: row;
+            @import "./components/supp_b_b_search.scss";
+            @import "./components/supp_b_b_download.scss";
+            @import "./components/supp_b_b_archive.scss";
+        }
+        &__tab {
+            display: flex;
+            flex-direction: row;
+            @import "./components/supp_b_t_left.scss";
+            @import "./components/supp_b_t_right.scss";
+        }
+        &__size {
+            display: flex;
+            flex-direction: row;
+            @import "./components/supp_b_s_left.scss";
+            @import "./components/supp_b_s_center.scss";
+            @import "./components/supp_b_s_right.scss";
+        }
+    }
+}
+.small-set {
+    display: flex;
+    flex-direction: row;
+    gap: 142px;
+    .download {
+        max-width: 615px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+        @import "./components/dload_s_b_clean.scss";
+        @import "./components/dload_s_g_clean.scss";
+        @import "./components/dload_s_t_clean.scss";
+        @import "./components/dload_s_tb_clean.scss";
+        @import "./components/dload_s_b_right.scss";
+        @import "./components/dload_s_g_right.scss";
+        @import "./components/dload_s_t_right.scss";
+        @import "./components/dload_s_tb_right.scss";
+        @import "./components/dload_s_b_left.scss";
+        @import "./components/dload_s_g_left.scss";
+        @import "./components/dload_s_t_left.scss";
+        @import "./components/dload_s_tb_left.scss";
+    }
+    .supporting {
+        display: flex;
+        flex-direction: column;
+        row-gap: 9px;
+        &__tab {
+            display: flex;
+            flex-direction: row;
+            @import "./components/supp_s_t_left.scss";
+            @import "./components/supp_s_t_right.scss";
+            @import "./components/supp_s_s_search.scss";
+            @import "./components/supp_s_b_search.scss";
+        }
+        &__search {
+            display: flex;
+            flex-direction: row;
+            @import "./components/supp_s_b_searchbar.scss";
+            @import "./components/supp_s_b_searchbar_center.scss";
+            @import "./components/supp_s_b_searchbar_right.scss";
+        }
+        &__size {
+            display: flex;
+            flex-direction: row;
+            margin-top: 11px;
+            @import "./components/supp_s_s_left.scss";
+            @import "./components/supp_s_s_center.scss";
+            @import "./components/supp_s_s_right.scss";
+        }
+    }
+}
+.tag {
+    width: 145px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 14px;
+    row-gap: 14px;
+    @import "./components/tag_b_t_close.scss";
+    @import "./components/tag_b_b_close.scss";
+    @import "./components/tag_b_t_clean.scss";
+    @import "./components/tag_b_b_clean.scss";
+}

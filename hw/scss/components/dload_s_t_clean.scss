@@ -1,0 +1,15 @@
+&__transperent-clean {
+    width: 111px;
+    height: 36px;
+    font-size: 13px;
+    color: #2C2C2C;
+    padding: 0;
+    background-color: transparent;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+}
+&__transperent-clean:hover {
+    background-color: #E0E0E0;
+    border: 1px solid #2C2C2C;
+    transition: 0.5s;
+}

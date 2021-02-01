@@ -1,0 +1,27 @@
+&__blue-left {
+    width: 116px;
+    height: 36px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    font-size: 13px;
+    color: white;
+    background-color: #FF3E1D;
+    border: 1px solid #FF3E1D;
+    border-radius: 5px;
+    .down_fill {
+        stroke: white;
+    }
+}
+&__blue-left:hover {
+    color: #FF3E1D;
+    background-color: transparent;
+    .down_fill {
+        stroke: #FF3E1D;
+        transition: 0.5s;
+    }
+    transition: 0.5s;
+}
